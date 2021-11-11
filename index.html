@@ -7,17 +7,21 @@
         <script src="https://kit.fontawesome.com/02dff7e7e3.js" crossorigin="anonymous"></script>
         <title>The tea site</title>
         <link rel = "icon" href = "favicon.ico" type = "image/x-icon">
+        <a name = "home"></a>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Tea</a></li>
-                    <li><a href="#tea">Recipies</a></li>
-                    <li><a href="#stores">Our other sites</a></li>
-                    <li><a href="#contact">Follow us on</a></li>
-                </ul>
-            </nav>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <a href="#contact">Follow us on</a>
+                        <a href="#stores">Our other sites&ensp;</a>
+                        <a href="#tea">Recipies&ensp;</a>
+                        <a href="#about">About Tea &ensp;</a>
+                        <a href="#home">Home&ensp;</a>
+                    </ul>
+                </nav>
+            </div>
             <div class="strapline-container">
                 <h1 class="main-strapline">The tea site</h1>
                 <h2 class="second-strapline">Some of the most healthy tea recipies for your loved ones! </h2>
@@ -117,3 +121,17 @@
         </footer>
     </body>
 </html>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>

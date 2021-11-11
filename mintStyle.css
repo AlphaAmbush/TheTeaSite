@@ -9,7 +9,7 @@
 header{
     height: 100vw;
     width: 100vw;
-    margin: 0%;
+    margin-top: 0.01%;
 }
 
 nav{
@@ -19,25 +19,29 @@ nav{
      font-size: 20px;
 }
 
-nav ul li{
-    display: inline-block;
+#navbar {
+    overflow: hidden;
+    background-color: #333;
 }
-
-nav ul li a{
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
-    color: brown;
-    margin: 0px 10px;
-    letter-spacing: 1px;
 }
 
-nav ul li a:hover{
-    text-decoration: underline;
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .strapline-container{
     border: 2px solid rgb(161, 204, 161);
-    width: 90%;
-    height:55%;
-  
+    padding-top: 5vw;
+    width: 100%;
+    height:65%;
     margin: auto auto;
     text-align: center;
     background-image: url(https://images.unsplash.com/photo-1498481530819-96eff6cef535?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1135&q=80);
@@ -46,12 +50,13 @@ nav ul li a:hover{
 }
 
 .main-strapline{
-    color: rgb(186, 199, 10);
-    background-color: white;
-    font-size: 3vw;
+    color: rgb(204, 204, 84);
+    font-size: 5vw;
     text-transform: uppercase;
+    padding-top: 2vw;
     margin: 0px 0px;
     font-family:  sans-serif;
+    text-shadow: 0 0 5px #584242, 0 0 8px #572626;
 }
 .contact-comtainer{
     width: 100vw;
