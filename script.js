@@ -6,5 +6,6 @@ function myFunction() {
      window.scrollTo(0, 0);
   } else {
     x.className = "topnav";
+     window.scrollTo(0, 0);
   }
 }
