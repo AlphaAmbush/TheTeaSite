@@ -115,9 +115,8 @@ body {
 
 .steps{
     border: 3px solid rgb(2, 2, 22);
-    margin: auto;
+    margin: auto auto;
     margin-top: 100px;
-    margin-left: 160px;
     width: 80%;
     height: auto;
     font-size: 25px;
