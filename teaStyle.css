@@ -169,6 +169,7 @@ body {
   }
   .topnav.responsive div{
         display: none;
+       position: fixed;
     }
 }
 
