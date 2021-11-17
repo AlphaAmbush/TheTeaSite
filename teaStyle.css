@@ -17,7 +17,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom:solid black 1px;
 }
 
 #logo_nav{
@@ -152,6 +151,9 @@ body {
         width: auto ;
         height: 50px ;
     }
+    .social-media-icon{
+    margin: 3px;
+}
 
 }
 
